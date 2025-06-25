@@ -64,7 +64,7 @@ int main() {
          }
          cunrent_size+=m;
      }else{
-         printf("Khong co phan tu nao them vào")
+         printf("Khong co phan tu nao them vào");
      }
      printf("\n Mang sau khi them");
      printArray(arr, cunrent_size);

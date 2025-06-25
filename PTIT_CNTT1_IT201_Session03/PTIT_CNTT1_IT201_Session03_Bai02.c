@@ -7,6 +7,7 @@ int main () {
     scanf("%d",&n);
     if (n<0||n>1000) {
         printf("khong hop le");
+        return 1;
     }
     arr=(int*)malloc(n*sizeof(int));
     if (arr==NULL) {

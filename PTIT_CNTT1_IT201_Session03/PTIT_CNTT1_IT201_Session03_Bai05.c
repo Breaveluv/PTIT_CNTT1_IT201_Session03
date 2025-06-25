@@ -26,6 +26,7 @@ void inputHe(int rows, int cols, int **hehe ) {
     }
 }
 int main () {
+    int n,m;
     do {
         printf("Nhap so dong: ");
         scanf("%d",&n);

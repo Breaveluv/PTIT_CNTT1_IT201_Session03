@@ -10,7 +10,7 @@ void inputMatrix(int rows, int cols, int **matrix) {
     }
 
 }
-void find(int n, int m,int *arr) {
+void find(int n, int m,int **arr) {
     int max=arr[0][0];
     int min=arr[0][0];
     for (int i=0;i<n;i++) {
